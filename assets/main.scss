@@ -1,0 +1,14 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.site-title img {
+  height: 2em;
+}
+
+.copy-right {
+  font-size: .8em;
+  text-align: center;
+}
