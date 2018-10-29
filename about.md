@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-中国で9割の決済シェアを持つ、WeChat Pay, Alipay, 銀聯を使って越境ECを始めませんか？
-公式ライセンシーと直接契約しているHuapayだからこそ可能な決済手数料をご提供いたします！
+<p>中国で9割の決済シェアを持つ、WeChat Pay, Alipay, 銀聯を使って越境ECを始めませんか？</p>
+<p>公式ライセンシーと直接契約しているHuapayだからこそ可能な決済手数料をご提供いたします！</p>
 
-お気軽にお問い合わせください。
+<p>お気軽にお問い合わせください。</p>

@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Huapay
+lang: ja
 description: >- # this means to ignore newlines until "baseurl:"
   中国で9割の決済シェアを持つ、WeChat Pay, Alipay, 銀聯を使って越境ECを始めませんか？
   公式ライセンシーと直接契約しているHuapayだからこそ可能な決済手数料をご提供いたします！
