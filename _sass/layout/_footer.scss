@@ -1,6 +1,25 @@
 .footer {
   .copy-right {
+    padding-bottom: 20px;
     font-size: .8em;
     text-align: center;
+    color: white;
   }
+  .footer-content{
+    text-align: center;
+    // footerを太くする
+    padding-top:20px;
+    padding-bottom: 20px;
+    ul.footer-information li{
+      display: inline;
+      text-align: center;
+      color: white;
+    }
+    ul.footer-information a{
+      color: white;
+    }    
+  }
+  background-color: #3d4044;
 }
+
+
