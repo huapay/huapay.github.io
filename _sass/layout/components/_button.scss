@@ -1,0 +1,15 @@
+.red-large-button{
+    position: absolute;
+    top: 40%; 
+    left: 55%;
+    .btn{
+        width: 300px;
+        height: 70px;
+        background-color: #d90000;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .btn:hover{
+        background-color: #800000;
+    }
+}
