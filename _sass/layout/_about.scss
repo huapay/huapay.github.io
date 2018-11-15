@@ -32,6 +32,7 @@
     background-color: white;
     width: 1150px;
     height: 900px;
+
     .sentence-zone{
         position: absolute;
         top: 50%;
@@ -43,6 +44,7 @@
         transform: translate(-50%,-80%);
         width:1000px;
         height: 500px;
+        z-index: 2;
         color: gray;
 
         .first-paragraph{
@@ -76,6 +78,7 @@
         // 確認用の線
         // border: solid 1px black;
         box-shadow: -13px 13px 20px #c6c6c6;
+        z-index: 1;
     }
 }
 
@@ -90,6 +93,7 @@
     transform: translate(-50%,-50%);
     width:1000px;
     height: 300px;
+    z-index: 2;
 }
 
 .service-zone h3{
@@ -186,25 +190,10 @@
             .phone-number p{
                 color: gray;
             }
-            .contact-button{
-                position: absolute;
-                top: 40%; 
-                left: 55%;
-                .btn{
-                    width: 300px;
-                    height: 70px;
-                    background-color: #d90000;
-                    color: #ffffff;
-                    font-weight: bold;
-                }
-                .btn h4{
-                    margin-top: 5%;
-                    font-weight: bold;
-                }
-                .btn:hover{
-                    background-color: #800000;
-                }
-            }
+        }
+        .btn h4{
+            margin-top: 5%;
+            font-weight: bold;
         }
     }
     .contact-information h3{
