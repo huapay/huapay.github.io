@@ -1,9 +1,11 @@
+@import "layout/components/color";
+
 .footer {
   .copy-right {
     padding-bottom: 20px;
     font-size: .8em;
     text-align: center;
-    color: white;
+    color: $base-color-white;
   }
   .footer-content{
     text-align: center;
@@ -13,13 +15,13 @@
     ul.footer-information li{
       display: inline;
       text-align: center;
-      color: white;
+      color: $base-color-white;
     }
     ul.footer-information a{
-      color: white;
+      color: $base-color-white;
     }    
   }
-  background-color: #3d4044;
+  background-color: $footer-color;
 }
 
 

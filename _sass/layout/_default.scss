@@ -1,3 +1,5 @@
+@import "layout/components/color";
+
 @font-face {
     font-family: "Yu Gothic";
     src: local("Yu Gothic Medium");
@@ -11,7 +13,7 @@ body {
 
 .main-catch-phrase {
     position: relative;
-    color: #ffffff;
+    color: $base-color-white;
     text-shadow:
     gray 1px 1px 2px, gray -1px 1px 2px,
     gray 1px -1px 2px, gray -1px -1px 2px;
@@ -30,7 +32,7 @@ body {
     top:20%;
     left: 5%;
     // 影文字の実装部分
-    color: #ffffff;
+    color: $base-color-white;
 }
 
 .catch-phrase-2 h1 {
@@ -46,7 +48,7 @@ body {
 }
 
 .box{
-    border: solid 3px #c0995a;
+    border: solid 3px $main-color-ocher;
     height: 300px;
     width: 550px;
     display: flex;
@@ -65,7 +67,7 @@ body {
 }
  
 .sentence-box {
-    background-color: #c0995a;
+    background-color: $main-color-ocher;
     width: 250px;
     height: 250px;
     margin: auto;
@@ -77,7 +79,7 @@ body {
 }
 
 .sentence a{
-    color:#ffffff;
+    color: $base-color-white;
     text-shadow:
     black 1px 1px 2px, black -1px 1px 2px,
     black 1px -1px 2px, black -1px -1px 2px;
@@ -93,7 +95,7 @@ body {
     0px 4px 3px rgba(0,0,0,0.4),
     0px 8px 13px rgba(0,0,0,0.1),
     0px 18px 23px rgba(0,0,0,0.1);
-    color: #ffffff;
+    color: $base-color-white;
     .explain-1{
         top:25%;
         left: 50%;
@@ -119,9 +121,9 @@ body {
     transform: translate(-50%,-50%);
     margin:0;
     font-size: 20px;
-    border: solid white 2px;
+    border: solid $base-color-white 2px;
     padding: 7px;
-    color: white;
+    color: $base-color-white;
     text-decoration: none;
     text-shadow: 
     0px 4px 3px rgba(0,0,0,0.4),
@@ -140,13 +142,13 @@ body {
 }
 
 .services {
-    background-color: #ffffff;
+    background-color: $base-color-white;
 }
 
 .services h1{
     text-align: center;
     padding-top: 40px;
-    color: #d90000;
+    color: $accent-color-red;
     text-shadow: 2px 2px 3px gray;  
 }
 
@@ -164,7 +166,7 @@ body {
 .image img{
     width: 350px;
     height: 350px;
-    border: solid 2px #d90000;
+    border: solid 2px $accent-color-red;
     border-radius: 10px;        /* CSS3草案 */ 
     object-fit: cover;
 }
@@ -177,12 +179,12 @@ body {
         transform: translateY(-50%) translateX(-50%);
         -webkit-transform: translateY(-50%) translateX(-50%);
         margin: auto;
-        color: white;
+        color: $base-color-white;
         white-space: nowrap;
     }
     // textプロパティ
     .support h3{
-      color: #ffffff;
+      color: $base-color-white;
       text-shadow:
       black 1px 1px 2px, black -1px 1px 2px,
       black 1px -1px 2px, black -1px -1px 2px;  
