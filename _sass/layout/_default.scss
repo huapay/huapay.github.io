@@ -13,15 +13,11 @@ body {
 
 .main-catch-phrase {
     position: relative;
-    color: $base-color-white;
-    text-shadow:
-    gray 1px 1px 2px, gray -1px 1px 2px,
-    gray 1px -1px 2px, gray -1px -1px 2px;
 }
 
 .main-catch-phrase img{
   height: 500px;
-  width: 100%;
+  width: 70%;
   object-fit: cover;
   object-position: 0% 15%;
 }
@@ -29,16 +25,16 @@ body {
 .catch-phrase-1 h1 {
     // 画像の上に文字を置くための絶対配置
     position: absolute;
-    top:20%;
-    left: 5%;
-    // 影文字の実装部分
-    color: $base-color-white;
+    top: 20%;
+    right: 15%;
+    font-weight: bold;
 }
 
 .catch-phrase-2 h1 {
     position: absolute;
-    top: 40%;
-    left: 5%;
+    top:40%;
+    right: 5%;
+    font-weight: bold;
 }
 
 .information-boxes{
@@ -97,25 +93,34 @@ body {
     0px 18px 23px rgba(0,0,0,0.1);
     color: $base-color-white;
     .explain-1{
-        top:25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         margin:auto;
         text-align: center;
+        white-space: nowrap;
         position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
     }
     .explain-2{
-        top: 50%;
-        left: 50%;
+        top: 75%;
+        left: 39%;
         transform: translate(-50%, -50%);
         position: absolute;
     }
 }
 
+.about h1{
+    font-weight: bold;
+}
+
+.about h5{
+    font-weight: bold;
+}
+
 .about a{
     position: absolute;
-    top: 65%;
-    left: 50%;
+    top: 90%;
+    left: 15%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -147,38 +152,37 @@ body {
 
 .services h1{
     text-align: center;
-    padding-top: 40px;
     color: $accent-color-red;
-    text-shadow: 2px 2px 3px gray;  
+    padding-top: 40px;
+    text-shadow: 2px 2px 3px gray;
+    font-weight: bold;
 }
 
-.image {
-    width: 350px;
-    height: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:30px;
-    margin-bottom:30px;
-    position: relative;
+.service{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    .service-icon h1{
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        font-size: 55pt;
+    }
 }
 
-.image img{
-    width: 350px;
-    height: 350px;
-    border: solid 2px $accent-color-red;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.image h3{
+.service h3{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 60%;
     transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%) translateX(-50%);
-    color: $base-color-white;
     white-space: nowrap;
-    text-shadow:
-    black 1px 1px 2px, black -1px 1px 2px,
-    black 1px -1px 2px, black -1px -1px 2px;  
+    font-weight: bold;
+    color: $service-text-color;
+    text-shadow: 
+    0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
 }
