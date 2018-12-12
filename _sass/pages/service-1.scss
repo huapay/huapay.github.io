@@ -1,0 +1,87 @@
+@import "layout/base/color";
+
+.keyboard-image {
+    position: relative;
+    .advertise-box{
+        position: absolute;
+        // transform: translate(10%, -10%);
+        @media (min-width: 1000px){
+            top: 40%;
+        }
+        @media (max-width: 1000px){
+            top: 20%;
+            width: 550px;
+        }
+        @media (max-width: 780px){
+            top: 5%;
+            width: 350px;
+        }
+        @media (max-width: 650px){
+            height: 200px;
+        }
+        left: 5%;
+        width: 650px;
+        height: 350px;
+        background-color: $base-color-white;
+    }
+    .advertise-box h2{
+        margin-top: 10px;
+        text-shadow: 
+        0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+        font-weight: bold;
+        color: $accent-color-red;
+        @media (max-width: 650px){
+            font-size: 12pt;
+        }
+    }
+    .solicitation h2{
+        margin-top: 45px;
+        text-align: center;
+        color: $base-color-black;
+        @media (max-width: 650px){
+            font-size: 12pt;
+        }
+    }
+}
+
+.keyboard-image img{
+    width: 100%;
+}
+
+.introduction-merit{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $merit-color-gray;
+}
+
+.introduction-merit h1{
+    font-weight: bold;
+}
+
+.circles{
+    display: flex;
+    margin: auto;
+}
+
+.circle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 250px;
+    height: 250px;
+    border: solid 5px $main-color-ocher;
+    border-radius: 50%;
+}
+.circle h3{
+    color: $main-color-ocher;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.circle p{
+    margin-top: 15%;
+}
+
