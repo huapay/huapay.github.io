@@ -148,7 +148,7 @@
     padding-bottom: 20px;
     font-weight: bold;
 }
-.ec-method-explains{
+.service-method-explains{
     .method-explain{
         @media (min-width: 770px){
             display: flex;
@@ -169,7 +169,7 @@
         height: 200px;
         margin: auto;
     }
-    .ec-method-sentence{
+    .service-method-sentence{
         width: 400px;
         height: 200px;
         @media (max-width: 460px){
@@ -181,14 +181,14 @@
             font-size: 9pt;
         }
     }
-    .ec-method-sentence h3{
+    .service-method-sentence h3{
         font-weight: bold;
     }
-    .ec-method-sentence a{
+    .service-method-sentence a{
         font-weight: bold;
         color: $accent-color-red;
     }
-    .ec-method-sentence a:hover{
+    .service-method-sentence a:hover{
         color: $main-color-darkred;
     }
 }
