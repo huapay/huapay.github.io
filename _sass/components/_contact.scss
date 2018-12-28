@@ -1,0 +1,100 @@
+.contact-content{
+    width: 1150px;
+    height: 300px;
+    @media (max-width: 1200px){
+        width: 600px;
+    }
+    @media (max-width: 610px){
+        width: 300px;
+    }
+    border: solid 3px gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: $base-color-white;
+
+    .contact-title{
+        width: 100%;
+        height: 20%;
+        top:5%;
+        background-color: $accent-color-red;
+        color: $base-color-white;
+    }
+    .contact-title h2{
+        position: relative;
+        text-align: center;
+        top: 15%;
+        @media (max-width: 1200px){
+            font-size: 20pt;
+        }
+        @media (max-width: 610px){
+            font-size: 11pt;
+        }
+    }
+
+    .contact-information{
+        position: relative;
+        width: 98%;
+        height: 70%;
+        border: solid 3px gray;
+        margin: auto;
+        top: 5%;
+        .contact-method{
+            display: flex;
+            .phone-number{
+                position: absolute;
+                top: 40%;
+                left: 20%;
+            }
+            .mail{
+                position: absolute;
+                top: 40%;
+                left: 55%;
+                @media (max-width: 610px){
+                    top: 70%;
+                    left: 20%;  
+                }
+            }
+            .mail h2{
+                @media (max-width: 1200px){
+                    font-size: 15pt;
+                }
+                @media (max-width: 610px){
+                    white-space: nowrap;
+                }
+            }
+            .phone-number h2{
+                font-weight: bold;
+                color: $main-color-darkred;
+                @media (max-width: 1200px){
+                    font-size: 15pt;
+                }
+            }
+            .phone-number p{
+                color: gray;
+                @media (max-width: 1200px){
+                    font-size: 10pt;
+                }
+                @media (max-width: 610px){
+                    font-size: 9pt;
+                }
+            }
+        }
+        .btn h4{
+            margin-top: 5%;
+            font-weight: bold;
+        }
+    }
+    .contact-information h3{
+        position: relative;
+        top: 10%;
+        text-align: center;
+        font-weight: bold;
+        @media (max-width: 1200px){
+            font-size: 15pt;
+        }
+        @media (max-width: 610px){
+            font-size: 10pt;
+        }
+    }
+}
