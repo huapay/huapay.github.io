@@ -111,7 +111,7 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: $introduction-color-gray;
+    background-color: $page-color-gray;
 }
 
 .introduction-merit h1{
@@ -194,7 +194,7 @@
 }
 
 .introduction-stream{
-    background-color: $introduction-color-gray;
+    background-color: $page-color-gray;
     height: 100%;
 }
 
@@ -206,12 +206,7 @@
 }
 
 .introduction-explain h5{
-    @media (min-width: 1200px) {
-        padding-left: 145px;
-    }
-    @media (max-width: 1200px){
-        text-align: center;
-    }
+    text-align: center;
     @media (max-width: 610px){
         font-size: 12pt;
     }
