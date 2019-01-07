@@ -1,0 +1,179 @@
+@import "layout/base/color";
+
+.advertise-zone{
+    .advertise-and-image{
+        width: 890px; 
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        @media (min-width: 890px){
+            display: flex;
+        }
+        @media (max-width: 890px){
+            width: 700px;
+        }
+        @media (max-width: 700px){
+            width: 470px;
+        }
+        @media (max-width: 470px){
+            width: 300px;
+        }
+    }
+    .advertise-and-button{
+        margin-top: 40px;
+        margin-bottom:40px;
+        width: 470px;
+        .service-and-image{
+            margin-top: 100px;
+            @media (min-width: 470px){
+                display: flex;
+            }
+        }
+        .service-and-image h5{
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        .service-and-image img{
+            @media (max-width: 470px){
+                width: 300px;
+            }
+        }
+        @media (max-width: 890px){
+            margin: auto;
+        }
+        @media (max-width: 470px) {
+            width: 300px;
+        }
+    }
+    .advertise-and-button h1{
+        font-weight: bold;
+        color: $accent-color-red;
+        text-shadow: 
+        0px 4px 3px rgba(0,0,0,0.4),
+        0px 8px 13px rgba(0,0,0,0.1),
+        0px 18px 23px rgba(0,0,0,0.1);
+        padding-bottom: 30px;
+        @media (max-width: 470px){
+            font-size: 21pt;
+        }
+    }
+    .terminal-image{
+        margin-top: 40px;
+        margin-bottom:40px;
+        width: 420px;
+        height: 420px;
+        @media (max-width: 890px){
+            margin: auto;
+        }
+        @media (max-width: 470px){
+            width: 300px;
+            height: 300px;
+        }
+    }
+    .terminal-image img {
+        width: 420px;
+        height: 420px;
+        @media (max-width: 470px){
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
+
+.penetration-explain{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $page-color-gray;
+    .penetration-margin{
+        width: 800px;
+        margin: auto;
+        @media (max-width: 800px){
+            width: 600px;
+        }
+        @media (min-width: 800px){
+            display: flex;
+        }
+        @media (max-width: 610px){
+            width: 450px;
+        }
+        @media (max-width: 460px){
+            width: 300px;
+        }
+        .huapay-logo{
+            width: 200px;
+            height: 200px;
+            @media (max-width: 800px){
+                margin: auto;
+            } 
+        }
+        .huapay-logo img{
+            width: 200px;
+            height: 200px;
+        }
+        .explain-sentence{
+            width: 600px;
+            @media (max-width: 800px){
+                margin: auto;
+            }
+            @media (max-width: 610px){
+                width: 450px;
+            }
+            @media (max-width: 460px){
+                width: 300px;
+            }
+        }
+        .explain-sentence h2{
+            font-weight: bold;
+            padding-bottom: 20px;
+            @media (max-width: 460px){
+                font-size: 15pt;
+            }
+        }
+    }
+}
+
+.feature{
+    color: $accent-color-red;
+    font-weight: bold;
+    text-shadow: 
+    0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.merit-explain p{
+    margin-top: 5%;
+}
+
+.bold-type{
+    font-weight: bold;
+}
+
+.terminal-icon-circle{
+    width:  200px;
+    height: 200px;
+    margin: auto;
+    border: solid 3px $phone-icon-circle-blue;
+    border-radius: 50%;
+    background-color: $base-color-white;
+}
+
+.terminal-icon-circle h1{
+    font-size: 100pt;
+    color: $terminal-color;
+}
+
+.introduction-method{
+    padding-bottom: 5px;
+}
+
+.circle-padding-4{
+    height: 250px;
+    @media (max-width: 1200px){
+        height: 450px;
+    }
+    @media (max-width: 610px){
+        height: 900px;
+    }
+}
